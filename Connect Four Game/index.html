@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Connect Four</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="field">
+            <button class="surrender" type="button">
+                <a href="#demo-modal">Surrender</a>
+            </button>
+        </div>
+        <h3>The current Player is: Player <span id="current-player">1</span></h3>
+        <h3 id="result"></h3>
+        <div class="field">
+            <button class="restart" type="button" onClick="window.location.reload();">Restart</button>
+        </div>
+        <div class="game_window">
+            <div class="grid">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+            <h3>The Player <span id="current-player2">1</span> lost!</h3>
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div>
+
+
+
+
+    <div class="confetti">
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+        <div class="confetti-piece"></div>
+      </div>
+
+
+
+  
+</body>
+</html>

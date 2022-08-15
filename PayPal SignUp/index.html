@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayPal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body> 
+    <div class = "container">
+        
+        <div class = "login-page">
+            <div class = "login-page-content">
+                <select id="theme">
+                    <option value="auto">Auto</option>
+                    <option value="light">Lumos!</option>
+                    <option value="dark">Nox!</option>
+                </select>
+                        
+                <div class="login-page-logo logo">
+                    <span class="p-1">P</span>
+                    <span class="p-2">P</span>
+                    <span>Pay</span>
+                    <span>Pal</span>
+                </div>
+                <form  class="agreement-form">
+                    <input type="checkbox" name="a" id="policy" value="agreed">
+                    <label for="policy"> Do you agree with PayPal policy?</label>
+                </form>
+                <form action="#" class="login-page-form">
+                    <input type="text" class="form-login-input" placeholder="Email or mobile number">
+                    <input type="password" class="form-login-input" placeholder="Password">
+                    <input type="button" class="form-login-btn" value="Login">
+                    <p>
+                        <a href="#" class="form-login-link" data-replace="Having trouble logging in?">
+                            Having trouble logging in?
+                        </a>
+                    </p>
+                    <span>or</span>
+                    <input type="button" class="form-signup-btn signup" value="Sign Up">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
