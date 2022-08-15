@@ -125,7 +125,10 @@ document.addEventListener("DOMContentLoaded", () => {
           displayCurrentPlayer.innerHTML = currentPlayer;
           displayCurrentPlayer2.innerHTML = currentPlayer;
         }
-      } else alert("cant go here");
+      } else
+        alert(
+          "Sorry, you can't go here. You can put it on top of another dot or on the bottom of the square"
+        );
       checkBoard();
     };
   }
